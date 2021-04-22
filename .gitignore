@@ -1,0 +1,6 @@
+/dist
+/build
+/site
+/npm
+*.egg-info/
+MANIFEST

@@ -1,0 +1,33 @@
+{
+    "title": "Pitch Dark",
+    "name": "bootstrap-pitch-dark",
+    "version": "0.0.3",
+    "description": "Dark Minimal Theme for MkDocs",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://gitlab.com/lramage/pitch-dark",
+    "bugs": {
+        "url": "https://gitlab.com/lramage/pitch-dark/issues",
+        "email": "ramage.lucas@protonmail.com"
+    },
+    "license": "GPL-3.0-or-later",
+    "author": "Lucas Ramage",
+    "repository": {
+        "type": "git",
+        "url": "https://gitlab.com/lramage/pitch-dark"
+    },
+    "dependencies": {
+        "bootswatch": "3.3.6",
+        "fork-awesome": "1.0.11",
+        "jasny-bootstrap": "3.1.3",
+        "jquery": "1.11.1",
+        "jquery-tagcanvas": "2.8.0",
+        "typed.js": "1.1.4"
+    }
+}

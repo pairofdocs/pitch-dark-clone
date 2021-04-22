@@ -1,0 +1,19 @@
+include:
+  template: Dependency-Scanning.gitlab-ci.yml
+
+image: docker:latest
+
+services:
+  - docker:dind
+
+pages:
+  stage: build
+  script:
+    - docker build . -t pitch-dark/theme-builder
+    - docker run -v $(pwd):/home/build/src pitch-dark/theme-builder
+    - mv site public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master

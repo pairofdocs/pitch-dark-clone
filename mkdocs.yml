@@ -1,0 +1,30 @@
+site_name: Pitch Dark
+site_description: Dark Minimal Theme for Bootstrap
+site_url: https://lramage.gitlab.io/pitch-dark
+
+site_author: Lucas Ramage
+
+copyright: copyright &copy; Lucas Ramage. All Rights Reserved.
+
+repo_name: lramage/pitch-dark
+repo_url: https://gitlab.com/lramage/pitch-dark
+remote_branch: master
+
+theme: pitch-dark
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Sample Post: posts/sample-post.md
+  - Contact: contact.md
+
+extra:
+  color: '#060606'
+  email: ramage.lucas@protonmail.com
+  phone: '+0 (123) 456-7890'
+  social:
+    gitlab: https://gitlab.com
+    mastodon: https://mastodon.social
+    peertube: https://joinpeertube.org
+
+plugins: []
